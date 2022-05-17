@@ -170,7 +170,7 @@ PROPERTIES(
 
 :-: 图4.1：动态分区的表
 
-图4.1中建表语句中通过指定PEROPERTIES来完成动态分区策略的配置。配置项可以描述如下：
+图4.1中建表语句中通过指定PROPERTIES来完成动态分区策略的配置。配置项可以描述如下：
 
 * dynamic\_partition.enable : 是否开启动态分区特性，可指定为 TRUE 或 FALSE。如果不填写，默认为 TRUE。
 * dynamic\_partition.time\_unit : 动态分区调度的粒度，可指定为 DAY/WEEK/MONTH。
